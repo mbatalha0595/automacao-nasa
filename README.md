@@ -1,7 +1,7 @@
 # Fluxo de Extração de Imagens da NASA via API REST
 
 ## Objetivo
-Este automação tem como objetivo extrair imagens de satélites da NASA via API REST, onde cada imagem é salva no SharePoint e enviada por e-mail.
+Este fluxo tem como objetivo extrair imagens de satélites da NASA via API REST, onde cada imagem é salva no SharePoint e enviada por e-mail.
 
 ## Fluxo
 Este fluxo é disparado manualmente pelo usuário. Na variável "Chave", armazeno a chave da API da NASA. Em seguida, a data de execução do fluxo é armazenada na variável "Data".
