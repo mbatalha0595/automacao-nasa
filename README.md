@@ -15,3 +15,7 @@ Para capturar qualquer problema na execução do fluxo, simulei a estrutura try 
 Se houver algum erro no escopo "Try", o escopo "Catch" é executado e um e-mail é disparado informando que houve erro na requisição de dados.
 
 <img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/3.png">
+
+Este é o e-mail disparado pelo fluxo:
+
+<img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/4.png" width="550">
