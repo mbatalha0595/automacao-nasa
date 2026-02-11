@@ -5,7 +5,7 @@ Consumir a API da NASA para obter a imagem astronômica do dia, processar a resp
 
 ## Fluxo
 
-<img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/Fluxo.png" width=600>
+<img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/Fluxo.png" width=700>
 
 ## Lógica de Execução
 
@@ -18,20 +18,20 @@ Em seguida, duas variáveis são inicializadas:
 - Chave (chave da API)
 - Data (data de disparo da trigger)
 
-<img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/1.png">
+<img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/1.png" width=700>
 
 ### 2) Consumo da API
 
 No escopo Try, é realizada uma requisição HTTP (GET) para a API da NASA passando o valor das variáveis Chave e Data.
 
-Nota: Para tratamento de erros, simulei a estrutura Try-Catch usando escopo com run-after. Se houver algum erro, um e-mail de notificação é enviado automaticamente.
+Nota: Para tratamento de erros, simulei a estrutura Try-Catch usando escopos com Run After. Caso ocorra algum erro no escopo Try, o fluxo segue para o escopo Catch, que envia um e-mail de notificação.
 
 Em seguida, a resposta JSON é processada para extrair a URL da imagem, seguida de uma segunda requisição HTTP para baixar a imagem (binário).
 
-<img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/2.png">
+<img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/2.png" width=700>
 
 ### 3) Envio de E-mail e Gravação no SharePoint
 
 Envio automático de e-mail com a imagem e armazenamento na biblioteca do SharePoint.
 
-<img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/3.png">
+<img src="https://raw.githubusercontent.com/mbatalha0595/fluxo-nasa/main/images/3.png" width=700>
