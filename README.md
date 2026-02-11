@@ -1,7 +1,7 @@
-# NASA - Fluxo de Extração de Dados (API REST)
+# Fluxo de Extração de Dados da NASA (API REST)
 
 ## Objetivo
-Consumir a API da NASA para obter a imagem astronômica do dia, processar a resposta JSON, enviar a imagem por e-mail e armazená-la em uma biblioteca do SharePoint.
+Este fluxo tem como objetivo extrair a imagem astronômica do dia da NASA via API REST, enviar a imagem por e-mail e salvar em uma biblioteca do SharePoint.
 
 ## Fluxo
 
